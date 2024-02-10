@@ -1,0 +1,18 @@
+# default: &defaults
+#   cool:
+#     saweet: nested settings
+#   neat_setting: 24
+#   awesome_setting: <%= "Did you know 5 + 5 = #{5+5}?" %>
+
+development:
+  cool:
+    saweet: nested settings
+  neat_setting: 24
+  awesome_setting: <%= "Did you know 5 + 5 = #{5+5}?" %>
+  neat_setting: 800
+
+# test:
+#   <<: *defaults
+#
+# production:
+#   <<: *defaults
